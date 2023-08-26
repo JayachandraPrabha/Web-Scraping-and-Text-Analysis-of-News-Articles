@@ -9,7 +9,7 @@ The purpose of this project is to perform web scraping and text analysis on a co
 Install the necessary libraries by running the following commands:
 ## pip install pandas beautifulsoup4 requests textblob textstat nltk
 
-# Create Directories:
+## Create Directories:
 
 Create a directory named article_texts in the same location as your script. This is where the extracted article texts will be saved.
 Prepare Input Data:
@@ -17,7 +17,7 @@ Prepare Input Data:
 Create an Excel file named Input.xlsx containing at least two columns: URL_ID and URL. The URL_ID is a unique identifier for each article, and URL is the URL of the article you want to scrape.
 Execution Steps:
 
-# Web Scraping (Retrieving Article Texts):
+## Web Scraping (Retrieving Article Texts):
 
 The script starts by loading the input data from Input.xlsx.
 It creates the article_texts directory if it doesn't exist.
@@ -47,7 +47,7 @@ Run the script using the command: python script_name.py (replace script_name.py 
 
 
 
-# 1. Project Setup and Data Collection:
+## 1. Project Setup and Data Collection:
 
 - Create a GitHub repository to store your project code and files.
 - Set up the project structure, including folders for input data, output data, code scripts, etc.
@@ -55,7 +55,7 @@ Run the script using the command: python script_name.py (replace script_name.py 
 - Choose a web scraping library (BeautifulSoup, Scrapy, Selenium, etc.) to extract article text from the URLs in the input dataset.
 - Write a script to scrape the article content from each URL and save it as a text file with the appropriate name (URL_ID).
 
-# 2. Text Analysis:
+## 2. Text Analysis:
 
 - Import the required Python libraries for text analysis and processing (NLTK, spaCy, etc.).
 - Read the extracted text files from step 1.
@@ -64,19 +64,19 @@ Run the script using the command: python script_name.py (replace script_name.py 
 - Create functions for each variable calculation to maintain modularity.
 - Store the computed variables in a suitable data structure.
 
-# 3. Data Aggregation and Output:
+## 3. Data Aggregation and Output:
 
 - Create a DataFrame or a data structure to store the computed variables along with the original input data.
 - Save the aggregated data as an Excel file named Output Data Structure.xlsx, following the provided structure.
 
-# 4. Project Documentation:
+## 4. Project Documentation:
 
 - Write a README.md file in your GitHub repository to explain the project's purpose, setup instructions, and execution steps.
 - Document the approach which has been considered for web scraping, text analysis, and variable computation.
 - Include information about the tools and libraries used.
 - Provide code examples and explanations for the main components of your project.
 
-# 5. Presentation Preparation:
+## 5. Presentation Preparation:
 
 - Create a PowerPoint presentation containing the following sections:
     - Problem Statement
@@ -86,7 +86,7 @@ Run the script using the command: python script_name.py (replace script_name.py 
 - Use visuals, graphs, and tables to effectively convey your findings.
 - Keep the presentation concise and organized.
 
-# 6. Project Evaluation:
+## 6. Project Evaluation:
 
 - Make sure your code is modular and follows the PEP 8 coding standards.
 - Ensure your code is well-documented with comments where necessary.
@@ -94,7 +94,7 @@ Run the script using the command: python script_name.py (replace script_name.py 
 - Include a proper README file in your GitHub repository.
 - Follow the guidelines provided in the project description for evaluation metrics and live sessions.
 
-# 7. Workflow and Execution:
+## 7. Workflow and Execution:
 
 - Provide a clear description of how to run your code in the README file.
 - Include any command-line arguments or configuration files required for the project.
