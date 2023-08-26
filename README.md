@@ -2,12 +2,12 @@
 
 The purpose of this project is to perform web scraping and text analysis on a collection of news articles. The project involves retrieving textual data from specified URLs, conducting text analysis to extract insights, and computing various variables related to sentiment, complexity, and linguistic features of the articles. The goal is to gain practical skills in web scraping, text processing, and analysis, which are valuable in data science, natural language processing, and content analysis fields.
 
-# Setup Instructions:
+## Setup Instructions:
 
 # Install Required Libraries:
 
 Install the necessary libraries by running the following commands:
-## pip install pandas beautifulsoup4 requests textblob textstat nltk
+### pip install pandas beautifulsoup4 requests textblob textstat nltk
 
 ## Create Directories:
 
