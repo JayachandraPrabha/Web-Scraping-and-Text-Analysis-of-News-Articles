@@ -4,7 +4,7 @@ The purpose of this project is to perform web scraping and text analysis on a co
 
 ## Setup Instructions:
 
-# Install Required Libraries:
+## Install Required Libraries:
 
 Install the necessary libraries by running the following commands:
 ### pip install pandas beautifulsoup4 requests textblob textstat nltk
